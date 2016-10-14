@@ -17,8 +17,7 @@
   },
   "files": [
     "bin",
-    "lib",
-    "yarn.lock"
+    "lib"
   ],
   "bin": {
     "vue-play": "bin/vue-play.js"
