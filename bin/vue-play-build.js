@@ -8,6 +8,7 @@ const makeConfig = require('../lib/make-config')
 
 module.exports = (input, flags) => {
   const options = Object.assign({
+    entry: input[0] || './play/index.js',
     type: 'build',
     dist: './dist-play'
   }, flags)
