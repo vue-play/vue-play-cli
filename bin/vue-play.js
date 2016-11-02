@@ -17,7 +17,6 @@ cli
 
 cli.usage(`${chalk.yellow('vue-play')} [entry] <options>`)
 
-cli.command('init', 'Initialize vue-play in your project')
 cli.command('start', 'Run development server')
 cli.command('build', 'Build app')
 
