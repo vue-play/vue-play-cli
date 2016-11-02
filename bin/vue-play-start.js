@@ -1,6 +1,6 @@
 'use strict'
 const webpack = require('webpack')
-const Server = require('webpack-dev-server')
+const server = require('webpack-hot-server')
 const makeConfig = require('../lib/make-config')
 
 module.exports = (input, flags) => {
@@ -9,7 +9,11 @@ module.exports = (input, flags) => {
     port: 5000
   }, flags)
   const config = makeConfig(options)
-  const app = new Server(webpack(config), {
+  const app = server({
+    config,
+    webpack,
+    hot: true,
+    customIndex: true,
     stats: {
       colors: true,
       modules: false,
