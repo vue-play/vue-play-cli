@@ -46,6 +46,8 @@ vue-play [command] ./path/to/play.js
 
 ### Webpack Config
 
+Merge your webpack config into the base config.
+
 ```bash
 vue-play [command] --webpack-config ./path/to/webpack.config.js
 ```
@@ -59,5 +61,21 @@ module.exports = {
       'play-entry': '/path/to/play/entry.js'
     }
   }
+}
+```
+
+**Note**: When you're extending the webpack config, try not to remove these properties:
+
+```js
+{
+  // the essential entries
+  entry: {app, preview},
+  resovle: {
+    alias: {
+      'play-entry' // the path to your `play entry` file
+    }
+  },
+  // they are html-webpack-plugin
+  plugins: [0, 1]
 }
 ```
