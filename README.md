@@ -93,7 +93,7 @@ module.exports = {
 
 ## Known Issues
 
-- Hot reloading only works for single file components and CSS now, we are working on making it work with JS files though, any kind of help is appreciated ;)
+- Hot reloading only works for single file components and CSS now, other js files are using live reload, we are working on making it work with JS files though, any kind of help is appreciated ;)
 
 ## License
 
