@@ -1,5 +1,4 @@
 'use strict'
-const webpack = require('webpack')
 const server = require('../lib/server')
 const makeConfig = require('../lib/make-config')
 
