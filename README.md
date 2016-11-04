@@ -79,3 +79,11 @@ module.exports = {
   plugins: [0, 1]
 }
 ```
+
+## Known Issues
+
+- Hot reloading only works for single file components and CSS now, we are working on making it work with JS files though, any kind of help is appreciated ;)
+
+## License
+
+MIT &copy; [EGOIST](https://github.com/egoist)
