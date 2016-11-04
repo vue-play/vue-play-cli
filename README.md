@@ -44,6 +44,17 @@ This is not a webpack entry, the easiest way to change it is via command-cli opt
 vue-play [command] ./path/to/play.js
 ```
 
+### Dist folder
+
+By default it's `./play-dist`, and it will be removed every time before `vue-play build`:
+
+```bash
+# custom dist
+vue-play [command] --dist my-dist-folder
+# do not remove dist folder
+vue-play [command] --no-clean 
+```
+
 ### Webpack Config
 
 Merge your webpack config into the base config.
