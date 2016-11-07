@@ -70,7 +70,7 @@
     "tildify": "^1.2.0",
     "trash": "^4.0.0",
     "update-notifier": "^1.0.2",
-    "vue-loader": "^9.5.1",
+    "vue-loader": "^9.8.1",
     "webpack": "^1.13.3",
     "webpack-dev-middleware": "^1.8.4",
     "webpack-hot-middleware": "^2.13.1",
