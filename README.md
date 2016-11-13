@@ -91,6 +91,18 @@ module.exports = {
 }
 ```
 
+#### Full Control Mode
+
+The webpack config could also be a function which takes the current config as argument:
+
+```js
+module.exports = (config, type) => {
+  // type is 'start' or 'build'
+  config.postcss = [require('postcss-mixins')]
+  return config
+}
+```
+
 ## Known Issues
 
 - Hot reloading only works for single file components and CSS now, other js files are using live reload, we are working on making it work with JS files though, any kind of help is appreciated ;)
