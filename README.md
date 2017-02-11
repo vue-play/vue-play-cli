@@ -5,8 +5,11 @@ Run vue-play app with ease.
 ## Install
 
 ```bash
-# use npm to install if you're from old school ;)
+# Use npm to install if you're from old school ;)
 $ yarn global add vue-play-cli
+
+# Install vue-play in your project
+$ yarn add vue-play --dev
 ```
 
 ## Quick start
