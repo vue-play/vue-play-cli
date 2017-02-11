@@ -13,7 +13,7 @@ cli
   .option('dist, d', 'Dist folder name', 'dist-play')
   .option('clean', 'Remove dist directory before bundling in production mode', true)
   .option('css-modules', 'Load css with css-modules', false)
-  .option('standalone ', 'Use Vue standalone build', false)
+  .option('no-standalone ', 'Do not use vue/dist/vue standalone build', false)
 
 cli.usage(`${chalk.yellow('vue-play')} [entry] <options>`)
 
