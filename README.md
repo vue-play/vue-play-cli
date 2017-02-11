@@ -21,7 +21,7 @@ Write your components and play entry:
 import {play} from 'vue-play'
 import ButtonExample from '../examples/Button.vue'
 
-play('Button', module)
+play('Button')
   .add('with text', ButtonExample)
 ```
 
